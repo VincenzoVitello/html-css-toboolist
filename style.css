@@ -2,40 +2,69 @@ body{
     background-color: #f6f8f9;
     margin: 0;
     padding: 0;
+    font-family:'Roboto', sans-serif;
 }
-
 #logo{
     margin-left: 15px;
+    vertical-align: middle;
 
 }
-
 #toboolist{
-    font-family: 'Roboto', sans-serif;
+    
     font-size: 45px;
     color: #1f1f1f;
-    vertical-align: top;
+    vertical-align: middle;
     line-height: 50px;
 
 }
-
 header{
     background-color: white;
     margin: 15px;
 }
-
 main{
     box-sizing: content-box;
+    border-radius: 10px;
 }
-.task{
+#task{
     background-color: #47adf1;
-    border: none;
-    border-radius: 10%;
+    border-radius: 7px;
+    border: solid 1.5px grey;
+    color: white;
+    padding: 5px;
 }
-.section-button{
-    border: none;
-    border-radius: 10%;
+#section-button{
     background-color: #fefefe;
+    border-radius: 7px;
+    border: solid 1.5px grey;
+    color: #cdd2d6;
+    padding: 5px;
+    
 }
 .buttons{
     border-bottom: solid lightgrey;
+    padding: 15px 50px;
 }
+.container{
+    
+    width: 800px;
+    padding: 20px;
+    margin: 15px;
+    background-color: #ffffff;
+    border-radius: 10%;
+    margin: auto;
+    }
+.item{
+    
+    font-size: medium;
+}
+.editorial{
+    background-color: #45abea;
+    border-radius: 7px;
+    padding: 5px;
+}
+.item::before{
+    content: &#9660;
+}
+
+
+
