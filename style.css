@@ -1,0 +1,41 @@
+body{
+    background-color: #f6f8f9;
+    margin: 0;
+    padding: 0;
+}
+
+#logo{
+    margin-left: 15px;
+
+}
+
+#toboolist{
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    color: #1f1f1f;
+    vertical-align: top;
+    line-height: 50px;
+
+}
+
+header{
+    background-color: white;
+    margin: 15px;
+}
+
+main{
+    box-sizing: content-box;
+}
+.task{
+    background-color: #47adf1;
+    border: none;
+    border-radius: 10%;
+}
+.section-button{
+    border: none;
+    border-radius: 10%;
+    background-color: #fefefe;
+}
+.buttons{
+    border-bottom: solid lightgrey;
+}
