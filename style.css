@@ -16,10 +16,12 @@ body{
     color: #1f1f1f;
     vertical-align: middle;
     line-height: 50px;
+    
 
 }
 header{
     background-color: white;
+
     
 }
 main{
@@ -42,13 +44,14 @@ main{
     
 }
 .buttons{
-    border-bottom: solid lightgrey;
+    border-bottom: solid grey 3px;
     padding: 15px 50px;
+  
 }
 .container{
     
     width: 800px;
-    padding: 20px;
+    padding: 50px;
     margin: 15px;
     background-color: #ffffff;
     border-radius: 10px;
@@ -61,7 +64,7 @@ main{
 }
 .editorial{
     background-color: #45abea;
-    border-radius: 7px;
+    border-radius: 10px;
     padding: 7px;
     color: white;
     font-size: small;
@@ -69,47 +72,56 @@ main{
 .item::before{
     content: '\25BC';
 }
-.check{
-    border: solid 1px #71c7b3;
-    color: #71c7b3;
+.check, .cross{
+    padding: 1px 3px;
+    margin-right: 6px;
+    margin-left: 4px;
+    font-size: 10px;
+    border: 1.5px solid;
     border-radius: 50%;
+   
+}
+.check{
+    color: #71c7b3;
+    border-color: #71c7b3;
+    
 }
 .cross{
-    border: solid 1px #eb5952;
+    border-color: #eb5952;
     color: #eb5952;
-    border-radius: 50%;
+    
 }
 #goals{
     background-color: #9c72e4;
-    border-radius: 7px;
+    border-radius: 10px;
     padding: 7px;
     color: white;
     font-size: small;
 }
 #recruiting{
     background-color: #64c0a9;
-    border-radius: 7px;
+    border-radius: 10px;
     padding: 7px;
     color: white;
     font-size: small; 
 }
 #mobile{
     background-color: #f29e33;
-    border-radius: 7px;
+    border-radius: 10px;
     padding: 7px;
     color: white;
     font-size: small;
 }
 #sales{
     background-color: #b0c926;
-    border-radius: 7px;
+    border-radius: 10px;
     padding: 7px;
     color: white;
     font-size: small;
 }
 #website{
     background-color: #d863a1;
-    border-radius: 7px;
+    border-radius: 10px;
     padding: 7px;
     color: white;
     font-size: small;
