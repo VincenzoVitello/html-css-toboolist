@@ -1,3 +1,4 @@
+
 body{
     background-color: #f6f8f9;
     margin: 0;
@@ -19,7 +20,7 @@ body{
 }
 header{
     background-color: white;
-    margin: 15px;
+    
 }
 main{
     box-sizing: content-box;
@@ -50,8 +51,9 @@ main{
     padding: 20px;
     margin: 15px;
     background-color: #ffffff;
-    border-radius: 10%;
+    border-radius: 10px;
     margin: auto;
+    margin-top: 5px;
     }
 .item{
     
@@ -61,10 +63,27 @@ main{
     background-color: #45abea;
     border-radius: 7px;
     padding: 5px;
+    color: white;
+    font-size: small;
 }
 .item::before{
-    content: &#9660;
+    content: '\25BC';
 }
-
-
+.check{
+    border: solid 1px #71c7b3;
+    color: #71c7b3;
+    border-radius: 50%;
+}
+.cross{
+    border: solid 1px #eb5952;
+    color: #eb5952;
+    border-radius: 50%;
+}
+#goals{
+    background-color: #9c72e4;
+    border-radius: 7px;
+    padding: 5px;
+    color: white;
+    font-size: small;
+}
 
